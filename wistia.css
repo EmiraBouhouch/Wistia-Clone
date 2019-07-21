@@ -311,7 +311,8 @@ video {
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid white;
-    color: #2a2d35
+    color: #2a2d35;
+    margin-top: 20px;
 }
 
 .btn-box:hover {
@@ -326,8 +327,15 @@ video {
 .text-box {
     color: #2a2d35;
     font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
+.text-explore {
+
+    margin-top: 40px;
+
+}
 .start {
     background: #FED24A
 }
