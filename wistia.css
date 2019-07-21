@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #C896A5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+}
+header * {
+    box-sizing: border-box
+}
+.nav-bar {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    height: 100%;
+}
+
+
+
+header:hover {
+    background: white
+}
+
+header:hover .nav-bar  {
+    color:black
+}
+
+header:hover .wistia-logo path {
+    fill: blue
+}
+svg {
+    margin: 6px
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+li {
+    color: white;
+    
+}
+
+.btn-login {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    box-shadow: 0 5px 0 0 rgba(255, 255, 255, 0.55);
+}
+
+.btn-started {
+    width: 100px;
+    height: 40px;
+    background-color: #3EA9F5;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-started:hover {
+    box-shadow: 0 5px 0 0 rgba(255, 255, 255, 0.55);
+}
+
+
+.dropping {
+display: none;
+justify-content: space-between;
+background: #51C29F;
+text-decoration:none;
+position: absolute;
+line-height: 1.8em;
+padding: 50px;
+top: 70px;
+border-top: 1px solid #F1F1F1;
+background-color: white;
+width:100vw;
+z-index: 1;
+left: 0;
+}
+
+
+
+.dropping-menu:hover .dropping {
+    display: flex;
+}
+
+.soap-box-features, .paid-plans  {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .paid-plans  {
+
+ width: 200px;
+}
+
+.soap-link-features {
+    text-decoration: none;
+    color: rgb(54, 57, 69);
+    font-size: 15px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.soap-link-features:hover {
+    color: #FE9886;
+}
+
+.soap-link:hover {
+font-weight : 520;
+}
+
+.soap-link {  
+text-decoration: none;
+color: rgb(54, 57, 69);
+padding: 5px 0px;
+font-size: 14px;
+}
+
+.dropping p {
+    text-decoration: none;
+    color: rgb(54, 57, 69);
+    font-weight: 500;
+    padding: 5px 0px;
+
+}
+.dropping h5 {
+    text-transform: uppercase;
+color: rgb(91, 107, 127);
+font-size: 11px;
+font-weight: 600;
+letter-spacing: 0.5px;
+margin-bottom: 15px;
+opacity: 0.7;
+
+}
+.soap-box-list {
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    align-items: baseline;
+    
+}
+.soap-logo{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+.soap-logo p {
+width:50%;
+color: rgb(91, 107, 127);
+font-size: 15px;
+line-height: 1.4;
+width: 200px;
+margin-top: 20px;
+}
+
+.install-for-free {
+    font-size: 16px;
+    height: 40px;
+    width:200px;
+    background: #fe9886;
+    border-radius: 7px;
+    border : 3px solid #fe9886;
+    color: white;
+    font-weight: 700px
+}
+
+.install-for-free:hover {
+ cursor: pointer;
+  box-shadow: 0 5px 0 0 #E37766;
+  bottom: 3px;
+}
+
+
+.Introduction {
+    display: flex;
+    background: #C896A5;
+}
+
+h1 {
+    color: #363945;
+    font-size: 40px;
+}
+
+span {
+    color: white
+}
+
+.btn-watch {
+    width: 180px;
+    height: 70px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-watch:hover {
+    box-shadow: 0 5px 0 0 rgba(255, 255, 255, 0.55);
+}
+
+.text-introduction {
+    width: 40%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.video {
+    width: 70%px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+video {
+    width: 85%;
+    height: 85%;
+}
+
+.description {
+    display: flex;
+}
+
+.Icon {
+    width: 55px;
+    height: 55px;
+}
+
+.IconChartGrowth {
+    color: #3EA9F5
+}
+
+.IconLaptop {
+    color: #E7B8C7
+}
+
+.IconBookChapter {
+    color: #FED24A
+}
+
+.box {
+    padding: 50px;
+}
+
+.hosting {
+    background: #FED24A
+}
+
+.soap {
+    background: #51C29F
+}
+
+.grow {
+    background: #3EA9F5
+}
+
+.description-title {
+    font-size: 24px;
+    color: white;
+    font-weight: 700px
+}
+
+.btn-box {
+    width: 180px;
+    height: 70px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: #2a2d35
+}
+
+.btn-box:hover {
+    background: white
+}
+
+.box-hovering:hover { color: white;
+    fill: white
+    
+}
+
+.text-box {
+    color: #2a2d35;
+    font-size: 20px;
+}
+
+.start {
+    background: #FED24A
+}
+
+.start-for-free {
+    background: #51C29F
+}
+
+.explore {
+    background: #3EA9F5;
+    margin-top: 50
+}
+
+.learn-more {
+    color: #2a2d35
+}
+
+.new-series {
+    background: #56a4ea
+}
+
+.new-series:hover {
+    opacity: 0.2px
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between
+}
+
+.partners-text {
+    color: #aaa8b7;
+    font-weight: 400;
+    padding: 80px;
+    width: 15%;
+    height: 100;
+}
+
+.partners-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 200;
+    display: flex;
+    align-items: center;
+    padding: 80
+}
+
+.logo {
+    width: 110px;
+    height: 110;
+}
+
+.features {
+    display: flex;
+}
+
+.img-features {
+    width: 340px;
+    height: 240px;
+    position: relative;
+}
+
+.container-overlay {
+    position: relative;
+}
+
+.imag-features {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-bleu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 340px;
+    height: 240px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(32, 157, 199);
+}
+
+.overlay-green {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 340px;
+    height: 240px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: green;
+}
+
+.overlay-pink {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 340px;
+    height: 240px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: pink;
+}
+
+.container-overlay:hover .overlay-bleu {
+    opacity: 0.5;
+}
+
+.container-overlay:hover .overlay-green {
+    opacity: 0.5;
+}
+
+.container-overlay:hover .overlay-pink {
+    opacity: 0.5;
+}
+
+.features-title {
+    color: #2a2d35;
+    font-size: 18px;
+}
+
+.features-child {
+    padding: 45px;
+    color: #2a2d35
+}
+
+.features-link {
+    color: #56a4ea;
+    margin-top: 20px
+}
+
+.features-text {
+    margin-bottom: 50px
+}
+
+.terms-of-service {
+    background-color: #efefef;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 40px;
+    color: #363970
+}
+
+.terms-link {
+    color: #5b6b7f
+}
+
+.social-media {
+    background-color: #2a2d35;
+    padding: 60px;
+    width: 20%
+}
+
+hr {
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #efefef;
+}
+
+.footer-navigation {
+    display: flex;
+    height: 300px;
+    background-color: #2a2d35;
+}
+
+.footer-list {
+    display: flex;
+    width: 80%;
+    padding: 40px;
+    align-items: baseline
+}
+
+.social-media-title {
+    color: white;
+    font-size: 20px
+}
+
+.social-media-list {
+    color: white
+}
+
+.social-media-link {
+    color: #56af6b;
+    font-weight: 400xp;
+    text-decoration: none;
+}
+
+.social-media-link:hover {
+    text-decoration: underline
+}
+
+.marketing,
+.soapbox,
+.company,
+.support {
+    display: flex;
+    flex-direction: column;
+    width: 25%
+}
+
+.all-rights {
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 40px;
+    height: 30px;
+    background: #2a2d35;
+    color: #9eb9ae
+}
+
+.privacy-terms {
+    color: #9eb9ae
+}
+
+.foot-list-heading {
+    color: #9ca8b7
+}
+
+.footer-menu {
+    color: white;
+    text-decoration: none
+}
+
+.footer-menu:hover {
+    font-weight: 700px
+}
+
+.footer-menu-creat {
+    color: #2e80e9;
+    text-decoration: none
+}
+
+.footer-menu-install {
+    color: #fd976b;
+    text-decoration: none
+}
